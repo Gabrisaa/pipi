@@ -3,28 +3,15 @@ import{ colors } from "../../styles/GlobalStyle"
 
 
 export const Header = styled.header`
-  /* Rodapé */
-    background-color: ${colors.primary};
+    background-color:${colors.Título};
     height: 4rem;
     width: 100%;
     display: flex;
     div {
         display: flex;
-        justify-content: space-between;
-        width: 100%;
+        background-color:${colors.while};
+        width: 5%;
     }
-
-    header picture {
-        margin-bottom: 0.5rem;
-        padding: 0.5rem;
-
-    }
-    header picture img {
-        height: 100%;
-
-
-    }
-
 
 
 `

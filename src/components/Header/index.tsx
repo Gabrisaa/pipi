@@ -1,7 +1,4 @@
 import * as S from "./styles"
-import lupa from "../../assets/lupa.png"
-import { NavBar } from "../Nav"
-
 
 
 export function Header() {
@@ -9,16 +6,12 @@ export function Header() {
     <>
       <S.Header>
         <div>
-        <img src={lupa} alt="lupa" />
-          
+        <ul className="header">
+                    <li>
+                        <a  href="/Formas de ajuda ">Noticias</a>
+                    </li>
+                    </ul>
         </div>
-
-        <NavBar></NavBar>
-
-        
-          
-
-
       </S.Header>
     </>
   )
